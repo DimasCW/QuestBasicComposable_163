@@ -108,7 +108,7 @@ fun BasicColumn(modifier: Modifier = Modifier) {
 
         Spacer(modifier = Modifier.padding(20.dp))
         Image(
-            painter = painterResource(id = R.drawable.IMG_2178),
+            painter = painterResource(id = R.drawable.dimas),
             contentDescription = "Logo",
             modifier = Modifier
                 .clip(CircleShape)
