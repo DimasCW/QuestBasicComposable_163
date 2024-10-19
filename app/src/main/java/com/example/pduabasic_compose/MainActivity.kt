@@ -97,6 +97,14 @@ fun BasicColumn(modifier: Modifier = Modifier) {
             fontStyle = FontStyle.Italic
 
         )
+
+        Spacer(modifier = Modifier.padding(10.dp))
+        Text(
+            text = "20220140163",
+            fontSize = 60.sp,
+            fontStyle = FontStyle.Italic
+
+        )
     }
 }
 
