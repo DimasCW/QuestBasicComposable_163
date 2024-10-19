@@ -62,7 +62,7 @@ fun BasicColumn(modifier: Modifier = Modifier) {
     ){
         Spacer(modifier = Modifier.padding(50.dp))
         Text("Login",
-            fontSize = 50.sp,
+            fontSize = 40.sp,
             fontWeight = FontWeight.Bold)
         Spacer(modifier = Modifier.padding(5.dp))
         Text("Ini adalah halaman login",
