@@ -19,6 +19,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
@@ -102,7 +103,8 @@ fun BasicColumn(modifier: Modifier = Modifier) {
         Text(
             text = "20220140163",
             fontSize = 60.sp,
-            fontStyle = FontStyle.Italic
+            fontStyle = FontStyle.Italic,
+            color = Color.Green
 
         )
 
