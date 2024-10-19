@@ -13,6 +13,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -107,7 +108,7 @@ fun BasicColumn(modifier: Modifier = Modifier) {
             painter = painterResource(id = R.drawable.dimas),
             contentDescription = "Logo",
             modifier = Modifier
-                .clip(CircleShape)
+                .clip(RoundedCornerShape(200.dp))
                 .size(300.dp)
         )
     }
