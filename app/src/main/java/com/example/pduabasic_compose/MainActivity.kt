@@ -90,7 +90,8 @@ fun BasicColumn(modifier: Modifier = Modifier) {
         Text(
             text = "Dimas Chandra Winata",
             fontSize = 30.sp,
-            fontStyle = FontStyle.Italic
+            fontStyle = FontStyle.Italic,
+            color = Color.Gray
 
         )
 
