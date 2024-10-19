@@ -89,6 +89,14 @@ fun BasicColumn(modifier: Modifier = Modifier) {
             fontStyle = FontStyle.Italic
 
         )
+
+        Spacer(modifier = Modifier.padding(10.dp))
+        Text(
+            text = "Dimas Chandra Winata",
+            fontSize = 30.sp,
+            fontStyle = FontStyle.Italic
+
+        )
     }
 }
 
