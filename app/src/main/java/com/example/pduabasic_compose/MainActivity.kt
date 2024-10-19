@@ -60,6 +60,7 @@ fun BasicColumn(modifier: Modifier = Modifier) {
             .fillMaxSize()
             .padding(top = 10.dp)
     ){
+        Spacer(modifier = Modifier.padding(50.dp))
         Text("Login",
             fontSize = 50.sp,
             fontWeight = FontWeight.Bold)
