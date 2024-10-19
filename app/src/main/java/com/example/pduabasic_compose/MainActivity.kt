@@ -67,13 +67,7 @@ fun BasicColumn(modifier: Modifier = Modifier) {
             fontSize = 25.sp,
             fontStyle = FontStyle.Italic)
 
-        Spacer(modifier = Modifier.padding(10.dp))
-        Text(
-            text = "Jetpack Compose",
-            fontSize = 50.sp,
-            fontStyle = FontStyle.Italic
 
-        )
         Spacer(modifier = Modifier.padding(20.dp))
         Image(
             painter = painterResource(id = R.drawable.logo),
